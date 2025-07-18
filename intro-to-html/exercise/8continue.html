@@ -4,7 +4,8 @@
   <title>Lesspm 8 Continue</title>
   <style>
     .wrap-conatainer {
-      text-align: center; 
+      text-align: center;
+      font-family: Helvetica; 
     }
     .container-gdiv-icon {
       margin: 20px;
@@ -14,8 +15,22 @@
       height: 40px;
       border-radius: 40px;
       padding-left: 20px;
+      border: 1px, solid, grey;
+      background-color: rgb(211, 211, 211);
+      margin-bottom: 30px;
+    }
+    .btn-down {
+      margin: 2px;
+      padding: 10px;
       border: none;
-      background-color: white;
+      background-color: rgb(211, 211, 211);
+      border-radius: 2.5px;
+      font-weight: 700px;
+    }
+    .btn-down:hover {
+      transform: scale(110%);
+      cursor: pointer;
+      background: #d0d0f167;
     }
 
   </style>
@@ -30,8 +45,8 @@
       placeholder="Search Google or type a URL">
     </div>
     <div>
-      <button>Google Search</button>
-      <button>Im Feeling Lucky</button>
+      <button class="btn-down">Google Search</button>
+      <button class="btn-down">Im Feeling Lucky</button>
     </div>
   </div>
 </body>
