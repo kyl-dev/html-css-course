@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flower Book</title>
+		<style>
+			body {
+				font-family: "Roboto", sans-serif;
+				margin: 0;
+				padding: 20px;
+				background-color: #faf8f1;
+			}
+			p {
+				margin-top: 0;
+				margin-bottom: 0;
+				color: #3a3a3a;
+			}
+			.flower-main-grid {
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				gap: 20px;
+			}
+			.container {
+				border: 1px solid #ddd0c8;
+				padding: 10px;
+				background-color: gainsboro;
+				border-radius: 10px;
+				display: grid;
+			}
+			.thumbnail-row {
+				margin-bottom: 10px;
+			}
+			.thumbnail {
+				width: 181px;
+				height: 181px;
+				object-fit: cover;
+				border-radius: 5px;
+			}
+			.flo-info-grid {
+				display: grid;
+				grid-template-columns: 25px 1fr;
+				vertical-align: center;
+			}
+			.chan-pic {
+				width: 25px;
+				margin: 0;
+				margin-bottom: 10px;
+			}
+			.chan-prof {
+				width: 100%;
+				border-radius: 50px;
+				width: 20px;
+			}
+			.flo-name {
+				margin: 0;
+				font-size: 16px;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+			.flo-mutual {
+				margin: 0;
+				margin-bottom: 10px;
+				font-size: 13px;
+				font-weight: 500px;
+				opacity: 0.8;
+			}
+			.button {
+				background-color: #7ca982;
+				color: white;
+				border: none;
+				padding: 10px 20px;
+				text-align: center;
+				text-decoration: none;
+				display: block;
+				font-size: 14px;
+				border-radius: 5px;
+				cursor: pointer;
+				width: 100%;
+			}
+			.button:hover {
+				background-color: #5f8d65;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flower-main-grid">
+			<div class="container">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/sunflower.jpeg" />
+				</div>
+				<p class="flo-name">Sunflower</p>
+				<div class="flo-info-grid">
+					<div class="chan-pic">
+						<img class="chan-prof" src="thumbnails/flowerbook.jpg" />
+					</div>
+					<div>
+						<p class="flo-mutual">2 shared blooms</p>
+					</div>
+				</div>
+				<button class="button">Grow Friendship</button>
+			</div>
+
+			<div class="container">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/lily.jpeg" />
+				</div>
+				<p class="flo-name">Lily</p>
+				<div class="flo-info-grid">
+					<div class="chan-pic">
+						<img class="chan-prof" src="thumbnails/flowerbook.jpg" />
+					</div>
+					<div>
+						<p class="flo-mutual">2 shared blooms</p>
+					</div>
+				</div>
+				<button class="button">Grow Friendship</button>
+			</div>
+
+			<div class="container">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/daisy.jpeg" />
+				</div>
+				<p class="flo-name">Daisy</p>
+				<div class="flo-info-grid">
+					<div class="chan-pic">
+						<img class="chan-prof" src="thumbnails/flowerbook.jpg" />
+					</div>
+					<div>
+						<p class="flo-mutual">2 shared blooms</p>
+					</div>
+				</div>
+				<button class="button">Grow Friendship</button>
+			</div>
+		</div>
+	</body>
+</html>
