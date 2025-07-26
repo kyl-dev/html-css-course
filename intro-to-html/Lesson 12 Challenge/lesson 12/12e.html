@@ -7,6 +7,7 @@
 				background-color: #f0f0f0;
 				font-family: Arial, sans-serif;
 			}
+
 			.container {
 				border: 1px solid rgba(177, 164, 164, 0.323);
 				border-style: outset;
@@ -15,6 +16,15 @@
 				padding: 10px;
 				align-items: start;
 				margin-bottom: 50px;
+			}
+			.container-flower {
+				border: 1px solid rgba(177, 164, 164, 0.323);
+				border-style: outset;
+				border-radius: 3px;
+				background-color: #b5b5b7;
+				padding: 10px;
+				margin-bottom: 50px;
+				width: 50%;
 			}
 			.number {
 				background-color: #2478ef;
@@ -29,44 +39,171 @@
 				height: 50px;
 				border-radius: 50%;
 			}
+			.flower-button {
+				background-color: #324a6d;
+				color: white;
+				border: none;
+				border-radius: 5px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
 		</style>
 	</head>
 	<body>
-		<div class="container">
-			<div
-			style="display: flex; flex-direction: row">
-				<div style="
-					justify-content: start;
-					width: 50px;
-				">
-					<img class="prof-pic" src="pics/Flower Book_files/sunflower.jpeg" />
-				</div>
-
+		<div class="container-flower">
+			<div>
 				<div
-					class="mid-container"
 					style="
 						display: flex;
 						flex-direction: row;
-						justify-content: start;
-						width: 200px;
-						background-color: blueviolet;
+						background-color: #b5b5b7;
+						justify-content: space-between;
+						align-items: center;
 					"
 				>
-					<p>the flower</p>
+					<div style="justify-content: sart; width: 50px">
+						<img class="prof-pic" src="pics/Flower Book_files/sunflower.jpeg" />
+					</div>
+
+					<div
+						style="
+							display: flex;
+							flex-direction: column;
+							justify-content: start;
+							width: 200px;
+							text-align: left;
+						"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: 1fr, 1fr, 1fr;
+								column-gap: 5px;
+								padding: 10px;
+							"
+						>
+							<p style="margin: 0; font-size: 16px; font-weight: 700">
+								Sunflower
+							</p>
+							<p style="margin: 0; font-size: 13px">Popular</p>
+							<p style="margin: 0; font-size: 13px">Summer favorite</p>
+						</div>
+					</div>
+					<div
+						style="
+							display: flex;
+							flex-direction: row;
+							justify-content: end;
+							align-items: center;
+							padding-right: 10px;
+							flex: 1;
+						"
+					>
+						<button class="flower-button">Add Flower</button>
+					</div>
 				</div>
+			</div>
+			<div>
 				<div
 					style="
 						display: flex;
 						flex-direction: row;
-						justify-content: center;
+						background-color: #b5b5b7;
+						justify-content: space-between;
 						align-items: center;
-						flex: 1;
-						background-color: lightcoral;
-					">
-				<button class="flower-button">Add Flower</button>
+					"
+				>
+					<div style="justify-content: sart; width: 50px">
+						<img class="prof-pic" src="pics/Flower Book_files/lily.jpeg" />
+					</div>
+
+					<div
+						style="
+							display: flex;
+							flex-direction: column;
+							justify-content: start;
+							width: 200px;
+							text-align: left;
+						"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: 1fr, 1fr, 1fr;
+								column-gap: 5px;
+								padding: 10px;
+							"
+						>
+							<p style="margin: 0; font-size: 16px; font-weight: 700">Lily</p>
+							<p style="margin: 0; font-size: 13px">Aura</p>
+							<p style="margin: 0; font-size: 13px">Head Turner</p>
+						</div>
+					</div>
+					<div
+						style="
+							display: flex;
+							flex-direction: row;
+							justify-content: end;
+							align-items: center;
+							padding-right: 10px;
+							flex: 1;
+						"
+					>
+						<button class="flower-button">Add Flower</button>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div
+					style="
+						display: flex;
+						flex-direction: row;
+						background-color: #b5b5b7;
+						justify-content: space-between;
+						align-items: center;
+					"
+				>
+					<div style="justify-content: sart; width: 50px">
+						<img class="prof-pic" src="pics/Flower Book_files/daisy.jpeg" />
+					</div>
+
+					<div
+						style="
+							display: flex;
+							flex-direction: column;
+							justify-content: start;
+							width: 200px;
+							text-align: left;
+						"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: 1fr, 1fr, 1fr;
+								column-gap: 5px;
+								padding: 10px;
+							"
+						>
+							<p style="margin: 0; font-size: 16px; font-weight: 700">Daisy</p>
+							<p style="margin: 0; font-size: 13px">Extrovert</p>
+							<p style="margin: 0; font-size: 13px">Social Butterfly</p>
+						</div>
+					</div>
+					<div
+						style="
+							display: flex;
+							flex-direction: row;
+							justify-content: end;
+							align-items: center;
+							padding-right: 10px;
+							flex: 1;
+						"
+					>
+						<button class="flower-button">Add Flower</button>
+					</div>
+				</div>
 			</div>
 		</div>
-
 		<!this is the end of exercise G-->
 
 		<div class="container">
