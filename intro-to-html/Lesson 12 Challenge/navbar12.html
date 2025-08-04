@@ -4,6 +4,23 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Nav Bar lesson 12</title>
+		<style>
+			body {
+				margin: 20px;
+				font-family: Arial, sans-serif;
+			}
+			.text {
+				width: 80%;
+				height: 25px;
+				border-radius: 20px;
+				border: none;
+				padding-left: 10px;
+			}
+
+			.text:focus {
+				outline: none;
+			}
+		</style>
 	</head>
 	<body>
 		<div
@@ -17,8 +34,8 @@
 				align-items: center;
 			"
 		>
-			<div style="font-weight: bold; width: 100px">Home</div>
-			<div style="flex: 1; background-color: aquamarine">
+			<div style="font-weight: 700; width: 100px; margin-left: 10px">Home</div>
+			<div style="flex: 1">
 				<input class="text" placeholder="Search" />
 			</div>
 			<div
@@ -27,6 +44,8 @@
 					border: 1px, solid, white;
 					align-content: center;
 					width: 100px;
+					margin-right: 5px;
+					margin-left: 10px;
 				"
 			>
 				<button
@@ -35,7 +54,6 @@
 						border: none;
 						color: white;
 						padding: 8px 20px;
-						margin: left: 10px;
 					"
 				>
 					Download
