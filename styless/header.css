@@ -8,6 +8,12 @@
 	background-color: #54d848;
 	width: 150px;
 }
+.hamburger-menu {
+	height: 20px;
+}
+.youtube-logo {
+	height: 20px;
+}
 .middle-section {
 	background-color: aqua;
 	flex: 1;
