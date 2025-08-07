@@ -16,12 +16,40 @@
 .youtube-logo {
 	height: 20px;
 }
+.search-bar {
+	flex: 1;
+	height: 36px;
+	padding-left: 10px;
+	font-size: 16px;
+	border: 1px, solid, gray;
+	border-radius: 2px;
+	box-shadow: inset 1px 2px 3px rgb(0, 0, 0, 0.5);
+}
+.search-bar::placeholder {
+	font-family: Roboto, arial;
+	font-size: 16px;
+}
+
 .middle-section {
-	background-color: aqua;
 	flex: 1;
 	margin-left: 70px;
 	margin-right: 30px;
 	max-width: 500px;
+	display: flex;
+	align-items: center;
+}
+
+.search-button {
+	height: 40px;
+	width: 60px;
+}
+.search-icon {
+	height: 25px;
+	margin-top: 4px;
+}
+.voice-button {
+	height: 40px;
+	width: 40px;
 }
 .right-section {
 	background-color: #ae2323;
